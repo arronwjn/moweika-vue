@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 20px;
+}
+.cantain{
+    display: flex;
+    flex-direction:column;
+    width: 18.75rem;
+    /*height: 100%;*/
+    height: 33.3rem;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    flex-shrink:0;
+    align-items:center ;
+    width: 100%;
+    /*height: 3.2rem;*/
+    height: 2.275rem;
+    background-color: #343434;
+    color:#fff;
+    padding:0 0.625rem;
+}
+/*底部*/
+
+footer{
+    z-index:10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink:0;
+    width: 100%;
+    height: 3.635rem;
+    border-top:1px solid #e3d0b5;
+    margin-top:0.445rem;
+    background: -webkit-radial-gradient(left,circle,#f4ede1, #fff, #fff); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(left,circle,#f4ede1, #fff, #fff); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(left,circle,#f4ede1, #fff, #fff); /* Firefox 3.6 - 15 */
+    background: radial-gradient(left,circle,#f4ede1, #fff, #fff); /* 标准的语法 */
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+footer div img{
+    width: 1.175rem;
+    height: 1.125 rem;
+}
+footer div span{
+    font-size:0.525rem;
+    color:#a5a5a5;
+    margin-top:0.25rem;
+}
+footer div .span{
+    color:#caaa7c;
+}

@@ -1,0 +1,229 @@
+
+.cantain{
+    background-color: #e4e7e9;
+}
+/*头部*/
+/*header-top */
+.header{
+    /*height: 9.975rem;*/
+    background-color: #8e9196;
+    background: url(../images/ticket-header-bg.jpg) no-repeat 35% 30%;
+}
+.header-top{
+    height: 1.95rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size:0.9rem;
+    color:#f5f5f5;
+    padding:0 0.625rem;
+}
+.header-top img:first-child{
+    width: 0.6rem;
+}
+.header-top img:last-child{
+    width: 1.075rem;
+}
+/*header-min*/
+.header-min{
+    overflow: hidden;
+}
+.header-min>img{
+    width: 3.875rem;
+    border:1px solid #e7d6bc;
+    float: left;
+    margin:0.25rem 0.475rem 0.5rem 1.8rem;
+}
+.header-min>div{
+    float: left;
+    line-height:0.995rem;
+}
+.header-min>div h3{
+    font-size: 0.675rem;
+    color:#ffffff;
+}
+.header-min>div{
+    color: #d7d7d7;
+    font-size:0.525rem;
+}
+.score ul{
+    overflow: hidden;
+}
+.score ul li{
+    list-style:none;
+    float: left;
+    margin-right:0.15rem;
+}
+.score ul li img{
+    width: 0.625rem;
+}
+.score ul li:last-child{
+    font-size:0.575rem;
+    color:#bd9353;
+    margin-left:0.15rem;
+    margin-right:0;
+}
+
+/*header-bottom*/
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding:0 0.675rem;
+}
+.header-bottom div{
+    width: 8.55rem;
+    background-color: #828083;
+    border-radius: 0.125rem;
+    font-size:0.65rem;
+    color:#e5e5e6;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+.header-bottom div img{
+    width: 0.675rem;
+}
+
+/*主体内容*/
+
+/*main-top*/
+.main-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.425rem;
+    background-color: #fff;
+    height: 6.175rem;
+    line-height: 1.125rem;
+    padding:0.475rem 0.65rem;
+}
+.main-top img{
+    width: 0.6rem;
+    margin-top: 0.65rem;
+}
+/*main-min*/
+.main-min{
+    background-color: #fff;
+    margin-top:0.5rem;
+}
+.main-min-top{
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.7rem;
+    font-size:0.625rem;
+    align-items: center;
+
+}
+.main-min-min{
+    width: 18.575rem;
+    /*height: 3.15rem;*/
+    overflow-x: scroll;
+}
+.main-min-min ul{
+    width: 30rem;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-x: auto;
+}
+.main-min-min ul li{
+    list-style: none;
+    float: left;
+}
+.main-min-min ul li img{
+    width: 5.325rem;
+    margin-left:0.55rem;
+}
+.main-min-bottom{
+    font-size:0.55rem;
+    color:#c8a775;
+    text-align: center;
+    line-height: 1.875rem;
+}
+/*main-bottom*/
+.main-bottom{
+    background-color: #fff;
+    margin-top: 0.475rem;
+}
+.main-bottom-top{
+    height: 1.55rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#222222;
+    font-size:0.625rem;
+    padding:0 0.65rem;
+}
+.main-bottom-bottom{
+    overflow: hidden;
+    padding:0 0.65rem;
+}
+.main-bottom-bottom-top{
+    display: flex;
+    align-items: center;
+}
+.main-bottom-bottom-top img{
+    float: left;
+}
+.main-bottom-bottom-top ul{
+    overflow: hidden;
+}
+.main-bottom-bottom-top li{
+    list-style: none;
+    float: left;
+    font-size: 0.6rem ;
+    color:#e2ceb2;
+    margin-left:0.3rem;
+}
+.main-bottom-bottom-top ul li img{
+    width: 0.7rem;
+}
+.main-bottom-bottom-min{
+    font-size: 0.6rem;
+    color:#222222;
+    margin-top:0.675rem;
+}
+.main-bottom-bottom-bottom{
+    display: flex;
+    justify-content: space-between;
+    color:#999999;
+    font-size: 0.425rem;
+    margin-top: 0.675rem;
+    margin-bottom: 0.75rem;
+}
+.main-bottom-bottom-right{
+    width: 3.45rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-bottom-bottom-right img{
+    width: 0.525rem;
+    height: 0.575rem;
+}
+.main-footer{
+    position: relative;
+    height: 1.525rem;
+    border-top: 2px solid #f3f5f7;
+}
+.main-footer div{
+    font-size: 0.525rem;
+    color:#c8a775;
+    background-color: #fff;
+    line-height: 1.525rem;
+    text-align: center;
+}
+.main-footer button{
+    width: 9.925rem;
+    height: 2.125rem;
+    background-color: #cf9e36;
+    position: absolute;
+    top:-1.2rem;
+    border-radius: 0.125rem;
+    left:25%;
+    border:none;
+    outline: none;
+    font-size: 0.7rem;
+    color:#fff;
+}
